@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 
 const MsgBox = () => {
   const activeChatData = useSelector((state) => state.activeChatUser.value)
-
+  console.log(activeChatData?.receivername);
   
 
   return (
@@ -11,7 +11,7 @@ const MsgBox = () => {
       <div className="msgheading">
         <div className="imgbox"></div>
         <div>
-        <h3>{activeChatData.sendername}</h3>
+        <h3>{activeChatData?.receivername}</h3>       
         <p>Active Now</p>
         </div>
       </div>

@@ -28,7 +28,7 @@ const MsgFriend = () => {
       },[])
 
       const handleChat =  (chatinfo) => {
-          //  console.log(chatinfo);
+           console.log(chatinfo);
            dispatch(activeChatUser(chatinfo))
       }
       
