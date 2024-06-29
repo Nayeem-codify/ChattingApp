@@ -11,8 +11,7 @@ const MsgBox = () => {
       <div className="msgheading">
         <div className="imgbox"></div>
         <div>
-        <h3>{activeChatData?.receivername}</h3>  
-        <h1>Hello</h1>     
+        <h3>{activeChatData?.receivername}</h3>    
         <p>Active Now</p>
         </div>
       </div>
