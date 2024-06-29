@@ -1,0 +1,62 @@
+.sidebarmain{
+    width: 200px;
+    height: 100vh;
+    padding: 30px;
+   
+}
+
+.sidebar_inner{
+    width: 200px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #00492d;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px 0;
+    
+}
+
+.profileimg{
+    display: flex;
+    justify-content: center;
+}
+
+.logoutbtn{
+    background-color:antiquewhite;
+    border-radius: 10px;
+    color: #000;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebarul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+}
+
+.sidebarul li a{
+    display: inline-block;
+    padding: 7px 25px;
+    border-radius: 8px;
+}
+.sidebarul li a:hover{
+    background-color: #00000059;
+}
+
+.sidebarul li a svg{
+   color: rgba(255, 255, 255, 0.514);
+   font-size: 40px;
+}
+
+.sidebarul li a.active{
+    background-color: rgb(255, 255, 255);
+}
+
+.sidebarul li a.active svg{
+    color: rgb(255, 0, 0);
+}
