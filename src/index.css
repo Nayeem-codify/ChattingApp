@@ -85,3 +85,31 @@ a{
     color: rgb(0, 255, 0);
     font-size: 16px;
 }
+
+.msgbody{
+    height: 548px;
+}
+
+.msgfooter{
+    background-color:  rgba(58, 57, 58, 0.336);
+    padding: 10px 25px;
+}
+
+.msginput{
+    width: 300px;
+    padding: 6px 10px;
+    border: none;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 380px;
+    
+}
+
+.msgfooter svg{
+    height: 30px;
+    width: 35px;
+    overflow: hidden;
+    cursor: pointer;
+    background: transparent;
+}

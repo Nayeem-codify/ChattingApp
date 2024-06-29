@@ -5,7 +5,7 @@ import MsgBox from './MsgBox'
 
 const Message = () => {
   return (
-    <div style={{display: "flex"}} >
+    <div style={{display: "flex",}} >
      <MsgFriend/>
     <MsgBox/>
     </div>
