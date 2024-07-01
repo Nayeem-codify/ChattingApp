@@ -29,10 +29,24 @@ const MsgBox = () => {
            <p>Active Now</p>
         </div>
       </div>
-      <div className="msgbody"></div>
+
+      <div className="msgbody">
+        <div className='sendmsgmain'>
+        <p className='sendmsg'>Hello</p>
+        </div>
+
+        <div className='receivemsgmain'>
+        <p className='receivemsg'>Hello</p>
+        </div>
+
+        <div className='sendmsgmain'>
+        <p className='sendmsg'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quaerat magni, nisi placeat ipsam mollitia obcaecati ut reprehenderit consequatur? Architecto, dignissimos. Eveniet impedit repudiandae, dicta iusto expedita consectetur eligendi beatae culpa, consequatur aut, perspiciatis reprehenderit nam maiores asperiores velit totam nihil esse ea incidunt accusantium cupiditate corrupti vero cumque accusamus!</p>
+        </div>
+
+      </div>
       <div className="msgfooter">
-        <div style={{fontSize: "20px", fontWeight: "600",  border: "2px", borderRadius: "15px", display: "flex", alignItems: "center", justifyContent: "center", gap: "20px"}}>
-          <input type='text' className='msginput'/>
+        <div style={{fontSize: "20px", fontWeight: "600", display: "flex", alignItems: "center", gap: "20px"}}>
+          <input type='text' className='msginput' placeholder='Enter Your Masseage'/> 
           <button><IoMdSend /></button>
         </div>
       </div>

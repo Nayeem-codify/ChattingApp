@@ -97,7 +97,6 @@ a{
 
 .msginput{
     width: 300px;
-    padding: 6px 10px;
     border: none;
     height: 50px;
     background-color: white;
@@ -111,5 +110,39 @@ a{
     width: 35px;
     overflow: hidden;
     cursor: pointer;
-    background: transparent;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 68, 255)
+}
+
+.msgbody{
+    padding: 0px 15px;
+}
+
+.sendmsgmain{
+   display: flex;
+   justify-content: end;
+   margin-top: 7px;
+
+}
+
+.sendmsg{
+    background-color: rgba(132, 0, 255, 0.445);
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.receivemsgmain{
+    margin-top: 7px;
+}
+
+.receivemsg{
+    background-color: rgba(133, 130, 136, 0.445);
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    max-width: 80%;
 }
